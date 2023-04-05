@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primaryFont: "Poppins", sans-serif;
+  --textColor: ;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 750px;
+  margin: auto;
+  background-color: var(--white);
+  box-shadow: inset 8px 8px 33px #dedede, inset -8px -8px 33px #ffffff;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+/* Navigate Component */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+  box-shadow: inset 9px 9px 28px #f0f0f0, inset -9px -9px 28px #ffffff;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  display: grid;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: #a7a5a5;
+  font-size: 1.2em;
+}
+
+.close-icon li:nth-child(1) {
+  padding-right: 15px;
+}
+
+.logo a img {
+  width: 160px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* User Blance */
+
+.user-blance {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-id {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: inset 9px 9px 28px #f0f0f0, inset -9px -9px 28px #ffffff;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.avatar {
+  width: 50px;
+}
+
+.avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.user-info {
+  font-size: 13px;
+  color: #a7a5a5;
+  margin-left: 10px;
+}
+
+.blance {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  box-shadow: inset 9px 9px 28px #f0f0f0, inset -9px -9px 28px #ffffff;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.blance p {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #a7a5a5;
+}
+
+/* Transgection Id */
+
+.transgection-id {
+  background-color: #028d6f;
+  margin-top: 30px;
+  border-radius: 6px;
+  padding: 30px 20px;
+  color: var(--white);
+}
+
+.transgection-id h4 {
+  font-size: 1.2em;
+  text-align: center;
+  color: var(--white);
+}
+
+#choose-file-input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #000000;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin: 15px 0;
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.transgection-id ul li {
+  list-style-position: inside;
+  font-size: 16px;
+  padding: 10px;
+  box-shadow: inset 8px 8px 33px #027b61, inset -8px -8px 33px #029f7d;
+  border-radius: 5px;
+  margin: 3px 0;
+}
+
+.transgection-id ul li span {
+  color: #f8b600;
+  font-weight: 700;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 400 !important;
+  color: var(--white) !important;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  float: right;
+}
+
+.copy-btn {
+  margin-left: 10px;
+}
+
+/* Verify Btn  */
+
+.verify-btn a {
+  background-color: #028d6f;
+  display: block;
+  padding: 10px;
+  border-radius: 6px;
+  color: var(--white);
+  text-align: center;
+  margin-top: 20px;
+}
